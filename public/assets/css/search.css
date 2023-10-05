@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    font-family: 'nesma';
+    color: rgb(105, 103, 102);
+    
+}
+body{
+    height: 12000px;
+}
+@font-face {
+    font-family: 'nesma';
+    src: url('../fonts/IBMPlexSansArabic-Medium.ttf');
+    unicode-range: U+0-2f, U+40-10FFFF;
+}
+
+/* ----------------------headerr----------------------------------------------- */
+.one{
+    display: flex;
+    align-items: center;
+}
+.one .nav-link{
+    font-size: large;
+}
+.color{
+    margin-top: 0;
+    height: 0.4rem;
+    background: linear-gradient( to right, rgb(247, 228, 22), rgb(234, 0, 255));
+    border-radius:0.3rem ;
+}
+.hedd img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 5px;
+    margin-top: 0.4rem;
+    display: block;
+    
+}
+.logink{
+    text-decoration: none;
+    color: #fff;
+    background-color:#199559
+    ;
+    padding: 0.3rem 0.9rem;
+    margin-left: 2rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    
+}
+.logink:hover{
+    color: beige;
+}
+.search{
+    margin-left:2rem;
+}
+.num{
+    position: absolute;
+    top: 0;
+    right:-10px ; 
+    color: white;
+    background-color: #7600d9;
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    display:flex;
+justify-content: center;
+align-items: center;
+}
+.logink i{
+    color: #fff;
+    margin-left: 5px;
+}
+.two{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.heart{
+    position: relative;
+    margin-left: 0.5rem;
+}
+.num1{
+    position: absolute;
+    top: 0;
+    right:-20px ; 
+    width: 19px;
+    height: 19px;
+    color: white;
+    background-color: #7600d9;
+    border-radius: 50%;
+     line-height: 1rem; 
+} 
+.shopp{
+    position: relative;
+    margin-left: 0.5rem;
+}
+.z{
+margin-left:1rem ;
+}
+.z p{
+    font-size:small;
+    /* font-weight:900; */
+    
+}
+.z a{
+   text-decoration: none;
+}
+.z i{
+    font-size:larger;
+}
+/*------------------------------------------------------------*/
+.imgscroll{
+    text-decoration: none;
+    margin-right:2rem ;
+    
+}
+.imgscroll img{
+    border: 0.5px solid rgb(218, 214, 214);
+    box-shadow:  0px 0.5px 5px 0.5px #888 ;
+}
+.items::-webkit-scrollbar,.categories-block .items::-webkit-scrollbar {
+    width: 8px;
+    background-color: white;
+    height: 10px;
+}
+.items::-webkit-scrollbar-thumb,.categories-block .items::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, #4182c3), color-stop(0.72, #4182c3), color-stop(0.86, #4182c3));
+}
+.items::-webkit-scrollbar-track, .categories .categories-block .items::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: white;
+    border-radius: 8px;
+}
+.bed {
+    text-decoration: none;
+text-align: end;
+}
+.thesearh{
+    background-color: rgba(62, 62, 219, 0.914);
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.searchform{
+    padding: 0.5rem ;
+}
+.thesearh i{
+margin-right: 3rem ;
+}
+.searchform input {
+    padding: 0.5rem 2rem;
+    font-size:large;
+}
+.headersearch{
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+}
+/* ----------------icone up-----------------------------------------*/
+.iconup{
+    position: fixed;
+    bottom: -100px;
+    left: 0;
+display:flex;
+justify-content: center;
+align-items: center;
+    background-color: #ffea00;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition:all .5s linear;
+   
+}
+.iconup i{
+    color: rgb(253, 253, 253);
+    font-size:x-large;
+}
+/* ----------------------foter---------------- */
+.firstfooter{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+     
+}
+.onedivfo{
+    width: 400px; 
+}
+.address{
+     display: flex; 
+   
+}
+.firstfo h5{
+    color: #000;
+    
+}
+.information a{
+text-decoration: none;
+font-size: 15px;
+
+}
+ .information {
+      width: 200px;   
+      margin-right: 3rem; 
+} 
+.secfo{
+    text-align: center;
+    margin-top: 2rem;
+}
+/* <------------------------------ايقونة ال up -------------------> */
+.iconup_pageprodect{
+    position: fixed;
+    bottom: -100px;
+    left: 1rem;
+display:flex;
+justify-content: center;
+align-items: center;
+    background-color: #ffea00;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition:all .5s linear;
+   
+}
+.iconup_pageprodect i{
+    color: rgb(253, 253, 253);
+    font-size:x-large;
+}

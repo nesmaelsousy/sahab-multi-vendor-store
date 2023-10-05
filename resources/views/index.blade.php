@@ -4,9 +4,11 @@
         <meta charset="utf-8" />
         <title></title>
         <!-- //<link rel="stylesheet" href="css/responsive.css">// -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-         <link rel="stylesheet" href="css/all.min.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="href={{ asset('assets/css/all.min.css') }}"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="css/bootstrap.min.css">
+         <link rel="stylesheet" href="css/all.min.css"> -->
+        <link rel="stylesheet" href="{{ asset('assets/css/style}}">
     </head>
     <body>
        
@@ -15,7 +17,7 @@
     <div class="center1"> 
         <div class="sec">
             <div class="center2"><img src="images/rasel-logo.png"  alt width="150">
-                <h2>تسجيل الدخول</h2>
+                <p>تسجيل الدخول</ح>
                 <form>
                     <div class="mb-3">
                       <label for="exampleInputEmail1" class="form-label">رقم الجوال</label>
@@ -28,6 +30,7 @@
                     </div>
                      
                   </form>
+                  <a href="#">نسيت كلمة المرور </a>
             </div>
                 <br><br>
     <a class="login" href="#">تسجيل الدخول</a><br>
